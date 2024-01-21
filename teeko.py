@@ -61,7 +61,7 @@ class TeekoPlayer:
                     [(row, col), (source_row, source_col)]
                 where the (row, col) tuple is the location to place a piece and the
                 optional (source_row, source_col) tuple contains the location of the
-                piece the AI plans to relocate (for moves after the drop phase). In
+                piece the AI plans to relocate (for moves after the drop phase). For
                 the drop phase, this list should contain ONLY THE FIRST tuple.
         """
         # validate input
