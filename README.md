@@ -38,9 +38,9 @@ have the minimal negative score (-1).
 
 ## 3. Implement Minimax
 
-● Defined a max_value(self, state, depth) function where the first call
+Defined a max_value(self, state, depth) function where the first call
 will be max_value(self, curr_state, 0) and every subsequent
 recursive call will increase the value of depth.
-● When the depth counter reaches your tested depth limit OR you find a
+When the depth counter reaches your tested depth limit OR you find a
 terminal state, terminate the recursion.
 
